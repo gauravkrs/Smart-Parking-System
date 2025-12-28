@@ -53,6 +53,7 @@ public class ParkingSpot {
         return spotType;
     }
 
+
     public ParkingSpotStatus getSpotStatus() {
         return status;
     }

@@ -36,6 +36,7 @@ public class ParkingLot {
                 return spot;
             }
         }
+
         throw new NoSpotAvailableException("No spot available for vehicle");
     }
 

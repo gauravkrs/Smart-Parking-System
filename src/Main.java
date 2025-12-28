@@ -33,6 +33,7 @@ public class Main {
         ParkingFloor floor2 = new ParkingFloor(2);
 
         parkingLot.addFloor(floor1);
+        
         parkingLot.addFloor(floor2);
 
         ParkingService parkingService = new ParkingService();

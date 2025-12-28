@@ -15,5 +15,5 @@ public class FeeCalculator {
             case CAR -> hours * 50;
             case BUS -> hours * 90;
         };
-    }
+    } 
 }

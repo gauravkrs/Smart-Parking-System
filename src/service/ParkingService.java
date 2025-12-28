@@ -7,6 +7,7 @@ import java.util.UUID;
 public class ParkingService {
 
     private final SpotAllocationService spotAllocationService = new SpotAllocationService();
+
     private final PaymentService paymentService = new PaymentService();
 
     public ParkingTicket checkIn(Vehicle vehicle){

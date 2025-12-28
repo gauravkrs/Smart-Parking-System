@@ -5,3 +5,4 @@ public class NoSpotAvailableException extends RuntimeException {
         super(message);
     }
 }
+

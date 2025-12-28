@@ -9,4 +9,5 @@ public class SpotAllocationService {
     public ParkingSpot findSpot(Vehicle vehicle){
         return ParkingLot.getInstance().assignSpot(vehicle);
     }
+
 }

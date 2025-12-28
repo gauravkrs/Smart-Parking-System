@@ -15,6 +15,7 @@ public class Vehicle {
         return vehicleNumber;
     }
 
+
     public VehicleType getVehicleType() {
         return VehicleType;
     }

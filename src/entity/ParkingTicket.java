@@ -42,6 +42,7 @@ public class ParkingTicket {
         return entryTime;
     }
 
+
     public LocalDateTime  getExitTime() {
         return exitTime;
     }
